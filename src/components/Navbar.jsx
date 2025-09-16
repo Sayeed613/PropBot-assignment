@@ -56,7 +56,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center gap-6">
         <Link to="/" className="hover:text-blue-500">Home</Link>
-        <p className="hover:text-blue-500 cursor-pointer">Buy</p>
+        <Link to='/listing' className="hover:text-blue-500 cursor-pointer">Buy</Link>
         <p className="hover:text-blue-500 cursor-pointer">Rent</p>
         <p className="hover:text-blue-500 cursor-pointer">Sell</p>
         <p className="hover:text-blue-500 cursor-pointer">About Us</p>
