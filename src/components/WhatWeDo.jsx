@@ -30,7 +30,7 @@ const services = [
 
 const WhatWeDo = () => {
   return (
-    <section className="py-20 bg-gray-50 px-4 md:px-10">
+    <section className="py-20 bg-white px-4 md:px-10">
       {/* Section Header */}
       <div className="max-w-2xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold mb-4 text-blue-900">What We Do</h2>

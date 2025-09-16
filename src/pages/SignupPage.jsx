@@ -44,7 +44,7 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row w-full min-h-screen">
+    <div className="flex flex-col md:flex-row w-full overflow-hidden mt-2">
       {/* Form */}
       <div className="flex-[0.4] flex flex-col justify-center p-8 md:p-16 gap-6 bg-white">
         <h1 className="font-bold text-3xl mb-6 text-center md:text-left">Create your account</h1>
@@ -64,11 +64,11 @@ const SignupPage = () => {
             <input
               type="email"
               placeholder="Email Address"
-              className="w-full border p-3 rounded-lg pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full border p-3 rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <AiOutlineMail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
+            <AiOutlineMail className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" />
           </div>
 
           <div className="relative w-full">

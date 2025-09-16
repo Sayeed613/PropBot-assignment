@@ -7,7 +7,7 @@ import { FaLocationCrosshairs } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section
-      className="relative w-[90%] max-w-[1440px] mx-auto rounded-4xl overflow-hidden min-h-[80vh] flex flex-col justify-center items-center text-center my-8 shadow-lg"
+      className="relative w-[90%] max-w-[1440px] mx-auto rounded-4xl overflow-hidden sm:min-h-[80vh] min-h-[60vh] flex flex-col justify-center items-center text-center my-8 shadow-lg"
       style={{
         backgroundImage: `url(https://images6.alphacoders.com/139/1392451.png)`,
         backgroundSize: "cover",
